@@ -2,17 +2,19 @@ const puppeteer = require('puppeteer');
 
 const environment = process.env.NODE_ENV || 'development';
 
+const product = 'firefox';
 const headless = environment !== 'development';
 console.log('environment : ', environment);
 
 (async () => {
     console.log('process start.');
-    const browserFetcher = puppeteer.createBrowserFetcher({ product: 'firefox' });
+    const browserFetcher = puppeteer.createBrowserFetcher({ product });
     const revisionInfo = await browserFetcher.download('84.0a1');
     console.log('browser download complete.');
+    console.log('executablePath : ', revisionInfo.executablePath);
     const browser = await puppeteer.launch({
-        product: 'firefox',
-        headless: headless,
+        product,
+        headless,
         slowMo: 60,
         defaultViewport: { width: 800, height: 800 }, // 엘리먼트를 찾아서 스크립트 작업을 하는경우 필요.
         args: ["--no-sandbox", "--disable-gpu", "--disable-web-security", "--wait-for-process"],
