@@ -2,13 +2,14 @@ const puppeteer = require('puppeteer');
 
 const environment = process.env.NODE_ENV || 'development';
 
-const headless = environment === 'development';
+const headless = environment !== 'development';
 console.log('environment : ', environment);
 
 (async () => {
-
+    console.log('process start.');
     const browserFetcher = puppeteer.createBrowserFetcher({ product: 'firefox' });
-    const revisionInfo = await browserFetcher.download('83.0a1');
+    const revisionInfo = await browserFetcher.download('84.0a1');
+    console.log('browser download complete.');
     const browser = await puppeteer.launch({
         product: 'firefox',
         headless: headless,
