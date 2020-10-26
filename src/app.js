@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const environment = process.env.NODE_ENV || 'development';
 
 const headless = environment === 'development';
-console.log('environment : ', env);
+console.log('environment : ', environment);
 
 (async () => {
 

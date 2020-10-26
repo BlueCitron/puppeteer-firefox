@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0d59d34-6065-45b9-8958-4071d2113d60" name="Default Changelist" comment="second commit">
       <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <workItem from="1602125520272" duration="3096000" />
       <workItem from="1603258420929" duration="4451000" />
       <workItem from="1603687464013" duration="30000" />
-      <workItem from="1603687503978" duration="692000" />
+      <workItem from="1603687503978" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1603687890403</created>
@@ -86,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603687890403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1603688223476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603688223476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,10 +123,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="1285" y="542" key="Github.UntrackedFilesDialog/0.0.3072.1688/3840.947.1920.1160/-1920.947.1920.1160@0.0.3072.1688" timestamp="1602114803208" />
-    <state x="1129" y="577" key="Vcs.Push.Dialog.v2" timestamp="1603687894892">
+    <state x="1129" y="577" key="Vcs.Push.Dialog.v2" timestamp="1603688227144">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="1129" y="577" key="Vcs.Push.Dialog.v2/0.0.3072.1688/3840.947.1920.1160/-1920.947.1920.1160@0.0.3072.1688" timestamp="1603687894892" />
+    <state x="1129" y="577" key="Vcs.Push.Dialog.v2/0.0.3072.1688/3840.947.1920.1160/-1920.947.1920.1160@0.0.3072.1688" timestamp="1603688227144" />
     <state x="1199" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1603687867701">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
